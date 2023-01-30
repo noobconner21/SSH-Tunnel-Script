@@ -226,6 +226,7 @@ echo -e "\e[96mRestarting services. Please wait...\e[0m"
 service squid restart
 service ssh restart
 
+figlet -c "SSLaB - SSH" | lolcat && figlet -f digital -c "MADE WITH LOVE BY PROJECT SSLaB LK " | lolcat
 echo " "
 echo -e "\e[96mInstallation has been completed!!\e[0m"
 echo " "
