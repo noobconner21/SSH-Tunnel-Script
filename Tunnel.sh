@@ -1,6 +1,12 @@
 #!/bin/sh
 # SSH Tunnel Auto Script - By Project SSLaB LK 🇱🇰
 # Version : 2.2.0
+apt install figlet lolcat -y
+
+apt install screenfetch -y
+figlet -c "SSLaB - SSH" | lolcat && figlet -f digital -c "MADE WITH LOVE BY PROJECT SSLaB LK " | lolcat
+echo ""
+echo ""
 echo "--- SSH Tunnel Auto Script ---"
 echo "⍟ By Project SSLaB LK ⍟"
 echo "After this operation, Stunnel, Dropbear, Squid and Badvpn will be installed on your server."
